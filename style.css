@@ -1,0 +1,115 @@
+.fdiv{
+    display: flex;
+    gap: 250px;
+}
+.chobi{
+    height: 200px;
+    width: 300px;
+}
+.year1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+.sajano{
+    color: goldenrod;
+}
+.year2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.year {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.month1 {
+    margin-left: 50px;
+    margin-bottom: 5px;
+    gap: 280px;
+}
+.month{
+    color: rgb(11, 163, 11);
+    margin-bottom: 5px;
+}
+
+section {
+    display: flex;
+    gap: 24px;
+    margin-left: 50px;
+}
+
+.container {
+    /* height: 600px; */
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(7, 2fr); */
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 2px solid green;
+
+
+}
+
+.thirty {
+    /* background-color: black;
+    color: white; */
+    font-weight: 700;
+    font-size: 20px;
+    border: 2px outset bisque;
+    text-align: center;
+    border-radius: 20px;
+    /* justify-content: space-between; */
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding:2px;
+}
+
+.thirty:hover {
+    background-color: rgb(57, 79, 250);
+    color: rgb(246, 241, 245);
+}
+.fri{
+    color: red;
+}
+
+.fri:hover{
+    background-color: black;
+    color: red;
+}
+
+.one {
+    /* height: 600px; */
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(7, 2fr); */
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 2px solid green;
+
+}
+.contain {
+     /* height: 600px; */
+     display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    border: 2px solid green;
+}
+.month5{
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 320px;
+}
+.month2{
+    margin-top: 20px;
+    margin-left: 50px;
+    gap: 265px;
+}
